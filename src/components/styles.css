@@ -1,0 +1,11 @@
+.illustration-column {
+  width: 35%;
+  background: #e8a87c;
+  height: 100vh;
+}
+
+.content-column {
+  width: 65%;
+  height: 100vh;
+  background: #e27d60;
+}
