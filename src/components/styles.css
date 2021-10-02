@@ -1,11 +1,42 @@
+/* Theme colors */
+:root {
+  --orange: #e8a87c;
+  --green: #41b3a3;
+  --red: #e27d60;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&display=swap");
+
 .illustration-column {
   width: 35%;
-  background: #e8a87c;
-  height: 100vh;
+  background: var(--orange);
+  height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+}
+
+.illustration-content {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  padding: 10px;
+  /* color: white; */
+  /* color: var(--red); */
+}
+
+.work-illustration {
+  width: 22vw;
+  height: 13vw;
 }
 
 .content-column {
   width: 65%;
   height: 100vh;
-  background: #e27d60;
+  background: var(--red);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
